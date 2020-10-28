@@ -1,5 +1,7 @@
 # Student template
 
+[![Build Status](https://travis-ci.com/nikokaharatuni/COMP.SE.200-2020-assignment.svg?branch=master)](https://travis-ci.com/nikokaharatuni/COMP.SE.200-2020-assignment)
+
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
