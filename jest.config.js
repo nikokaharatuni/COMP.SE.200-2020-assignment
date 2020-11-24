@@ -7,7 +7,8 @@ export default {
     [
       "./node_modules/jest-html-reporter",
       {
-        pageTitle: "Test Report"
+        pageTitle: "Test Report",
+        sort: "titleAsc"
       }
     ]
   ],
