@@ -12,5 +12,6 @@ export default {
       }
     ]
   ],
-  coveragePathIgnorePatterns: ["/node_modules/", "./src/.internal/"]
+  coveragePathIgnorePatterns: ["/node_modules/", "./src/.internal/"],
+  collectCoverageFrom: ["./src/*.js"]
 };
