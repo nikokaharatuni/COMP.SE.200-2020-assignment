@@ -19,7 +19,7 @@ describe("5.21 isArguments", () => {
 
   it("4. should not tell undefined or missing value is arguments", () => {
     expect(isArguments(undefined)).toBe(false);
-    expect(isArguments()).toBe(false);
+    expect(isArguments()).toBe(false); // Not mentioned in the plan!
   });
 
   it("5. should tell arguments is arguments", () => {

@@ -15,7 +15,7 @@ describe("5.24 isBoolean", () => {
 
   it("3. should not tell undefined or a missing value is a boolean", () => {
     expect(isBoolean(undefined)).toBe(false);
-    expect(isBoolean()).toBe(false);
+    expect(isBoolean()).toBe(false); // Not mentioned in the plan!
   });
 
   it("4. should not tell an empty string is a boolean", () => {

@@ -19,7 +19,7 @@ describe("5.23 isArrayLikeObject", () => {
 
   it("4. should not tell undefined or missing value is array like object", () => {
     expect(isArrayLikeObject(undefined)).toBe(false);
-    expect(isArrayLikeObject()).toBe(false);
+    expect(isArrayLikeObject()).toBe(false); // Not mentioned in the plan!
   });
 
   it("5. should not tell Function constructor is array like object", () => {
