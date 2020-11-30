@@ -1,5 +1,4 @@
 import camelCase from "../src/camelCase";
-import add from "../src/camelCase";
 
 describe("5.3 camelCase.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>

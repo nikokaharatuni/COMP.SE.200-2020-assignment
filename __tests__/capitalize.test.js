@@ -1,5 +1,4 @@
 import capitalize from "../src/capitalize";
-import add from "../src/capitalize";
 
 describe("5.4 capitalize.js: Invalid inputs (Negative testing)", () => {
     it("0. should throw an exception for undefined value", () =>

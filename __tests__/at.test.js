@@ -1,5 +1,4 @@
 import at from "../src/at";
-import add from "../src/at";
 
 const object = { 'a': [{ 'b': { 'c': 3 } }, 4] };
 
