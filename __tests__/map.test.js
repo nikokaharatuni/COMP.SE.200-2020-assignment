@@ -7,19 +7,19 @@ describe("5.34 map (Negative testing)", () => {
   // The unit under test won't throw with invalid arguments.
 
   it("0. should throw with undefined array", () => {
-    expect(map(undefined, x => x)).toThrow();
+    expect(() => map(undefined, x => x)).toThrow();
   });
 
   it("1. should throw with undefined iteratee", () => {
-    expect(map([], undefined)).toThrow();
+    expect(() => map([], undefined)).toThrow();
   });
 
   it("2. should throw with an object given as the array", () => {
-    expect(map({}, x => x)).toThrow();
+    expect(() => map({}, x => x)).toThrow();
   });
 
   it("3. should throw with an object given as the iteratee", () => {
-    expect(map([], {})).toThrow();
+    expect(() => map([], {})).toThrow();
   });
 });
 
