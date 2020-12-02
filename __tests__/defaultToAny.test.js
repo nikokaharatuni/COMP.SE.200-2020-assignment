@@ -1,5 +1,4 @@
 import defaultToAny from "../src/defaultToAny";
-import defaultTo from "/../src/defaultTo";
 
 describe("5.12 defaultToAny.js: Valid inputs (Positive testing)", () => {
   it("0. No default value should be returned with input 1", () =>
