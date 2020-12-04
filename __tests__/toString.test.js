@@ -21,7 +21,11 @@ describe("5.41 toString", () => {
     expect(toString(undefined)).toBe("");
   });
 
-  it("5. should not add the sign for 0 converted to string", () => {
+  it("5. should not alter strings", () => {
+    expect(toString("123")).toBe("123");
+  });
+
+  it("6. should not add the sign for 0 converted to string", () => {
     expect(toString(0)).toBe("0");
   });
 });
