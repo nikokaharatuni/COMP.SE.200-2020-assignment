@@ -1,9 +1,6 @@
 import drop from "../src/drop";
 
 describe("5.15 drop.js: Invalid inputs (Negative testing)", () => {
-  it("0. should throw an exception for undefined value", () =>
-  expect(() => {drop([1,2,3], undefined);}).toThrow());
-
   it("1. should throw an exception for undefined value", () =>
   expect(() => {drop(undefined, 1);}).toThrow());
 

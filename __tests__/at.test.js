@@ -18,7 +18,7 @@ describe("5.2 at.js: Valid inputs (Positive testing)", () => {
   expect(at(object, ['a[0].b.c', 'a[1]'])).toStrictEqual([3,4]));
 
   it("11. Should return correct return value [3,4]", () =>
-  expect(at(object, 'a[0].b.c’, ‘a[1]')).toStrictEqual([3,4]));
+  expect(at(object, 'a[0].b.c', 'a[1]')).toStrictEqual([3,4]));
 
   it("12. Should return correct return value [3]", () =>
   expect(at(object, 'a[0].b.c')).toStrictEqual([3]));

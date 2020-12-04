@@ -28,7 +28,7 @@ describe("5.3 camelCase.js: Valid inputs (Positive testing)", () => {
   expect(camelCase("—test-case—")).toBe("testCase"));
 
   it("15. With __TEST_CASE__ should be returned testcase", () =>
-  expect(camelCase("__TEST_CASE__")).toBe("testcase"));
+  expect(camelCase("__TEST_CASE__")).toBe("testCase"));
 
   it("16. With testcase should be returned testcase", () =>
   expect(camelCase("testcase")).toBe("testcase"));

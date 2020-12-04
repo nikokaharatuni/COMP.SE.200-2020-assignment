@@ -15,6 +15,6 @@ describe("5.19 filter.js: Invalid inputs (Negative testing)", () => {
 });
 
 describe("5.19 filter.js: Valid inputs (Positive testing)", () => {
-  it("10. 0 + 1.1 should be 1.1", () =>
+  it("10. Should correctly filter with predicate", () =>
   expect(filter(users, ({ active }) => active)).toStrictEqual([{"active": true, "user": "barney"}]));
 });

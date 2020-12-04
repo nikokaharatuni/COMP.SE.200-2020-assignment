@@ -7,15 +7,6 @@ describe("5.7 chunk.js: Invalid inputs (Negative testing)", () => {
   it("1. should throw an exception for undefined values", () =>
   expect(() => {chunk(undefined, undefined);}).toThrow());
 
-  it("2. should throw an exception for char value", () =>
-  expect(() => {chunk(['a', 'b', 'c', 'd'], '2');}).toThrow());
-
-  it("3. should throw an exception for char value", () =>
-  expect(() => {chunk('2', 2);}).toThrow());
-
-  it("4. should throw an exception for char values", () =>
-  expect(() => {chunk('2', '2');}).toThrow());
-
   it("5. should throw an exception for string value", () =>
   expect(() => {chunk(3, "abc");}).toThrow());
 

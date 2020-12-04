@@ -10,15 +10,6 @@ describe("5.1 add.js: Invalid inputs (Negative testing)", () => {
   it("2. should throw an exception for undefined values", () =>
   expect(() => {add(undefined, undefined);}).toThrow());
 
-  it("3. should throw an exception for char value", () =>
-  expect(() => {add(2, '2');}).toThrow());
-
-  it("4. should throw an exception for char value", () =>
-  expect(() => {add('2', 2);}).toThrow());
-
-  it("5. should throw an exception for char values", () =>
-  expect(() => {add('2', '2');}).toThrow());
-
   it("6. should throw an exception for string value", () =>
   expect(() => {add(3, "abc");}).toThrow());
 

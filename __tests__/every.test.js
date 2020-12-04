@@ -16,7 +16,7 @@ describe("5.18 every.js: Valid inputs (Positive testing)", () => {
   expect(every([true, 1, null, 'yes'], Boolean)).toBe(false));
 
   it("11. All elements should pass the predicate check", () =>
-  expect(every([true, false, true], Boolean)).toBe(true));
+  expect(every([true, false, true], Boolean)).toBe(false));
 
   it("12. All elements should not pass the predicate check", () =>
   expect(every([true, 1, null, 'yes'], Number)).toBe(false));
@@ -25,14 +25,11 @@ describe("5.18 every.js: Valid inputs (Positive testing)", () => {
   expect(every([1, 2, 3], Number)).toBe(true));
 
   it("14. All elements should not pass the predicate check", () =>
-  expect(every([true, 1, null, 'yes'], String)).toBe(false));
+  expect(every([true, 1, null, 'yes'], String)).toBe(true));
 
   it("15. All elements should pass the predicate check", () =>
   expect(every(['yes','no'], String)).toBe(true));
 
   it("16. All elements should not pass the predicate check", () =>
-  expect(every(['yes','no'], undefined)).toBe(false));
-
-  it("17. All elements should not pass the predicate check", () =>
   expect(every([], undefined)).toBe(true));
 });

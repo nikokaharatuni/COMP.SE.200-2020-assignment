@@ -25,13 +25,13 @@ const usersByName = Object.freeze({'barney': { 'user': 'barney', 'active': true 
   expect(countBy(users, value => value.active)).toEqual({'true': 2, 'false': 1 }));
 
   it("11. See test plan documentation table 5.10 countBy.js", () =>
-  expect(countBy(users, value => value.name)).toEqual({'barney': 1, 'fred': 1, 'betty': 1}));  
+  expect(countBy(users, value => value.user)).toEqual({'barney': 1, 'fred': 1, 'betty': 1}));  
 
   it("12. See test plan documentation table 5.10 countBy.js", () =>
   expect(countBy(usersByName, value => value.active)).toEqual({ 'true': 2, 'false': 1 }));
 
   it("13. See test plan documentation table 5.10 countBy.js", () =>
-  expect(countBy(usersByName, value => value.name)).toEqual({'barney': 1, 'fred': 1, 'betty': 1}));  
+  expect(countBy(usersByName, value => value.user)).toEqual({'barney': 1, 'fred': 1, 'betty': 1}));  
 
   it("14. See test plan documentation table 5.10 countBy.js", () =>
   expect(countBy(usersByName, value => value.doesntExist)).toEqual({undefined: 3}));  

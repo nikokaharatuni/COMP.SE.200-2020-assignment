@@ -4,9 +4,6 @@ describe("5.4 capitalize.js: Invalid inputs (Negative testing)", () => {
     it("0. should throw an exception for undefined value", () =>
     expect(() => {capitalize(undefined);}).toThrow());
   
-    it("1. should throw an exception for char value", () =>
-    expect(() => {capitalize('a');}).toThrow());
-  
     it("3. should throw an exception for integer value", () =>
     expect(() => {capitalize(123);}).toThrow());
 });
