@@ -28,7 +28,7 @@ describe("5.16 endsWith.js: Valid inputs (Positive testing)", () => {
   expect(endsWith("abc", "a", undefined)).toBe(false));
 
   it("14. abc ends with abc when the number is 1", () =>
-  expect(endsWith("abc", "abc", 1)).toBe(true));
+  expect(endsWith("abc", "a", 1)).toBe(true));
 
   it("15. abcdef does not end with ed when the number is 5", () =>
   expect(endsWith("abcdef", "ed", 5)).toBe(false));
