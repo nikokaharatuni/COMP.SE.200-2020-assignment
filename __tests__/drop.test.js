@@ -22,8 +22,6 @@ describe("5.15 drop.js: Invalid inputs (Negative testing)", () => {
   it("10. should throw an exception for negative number of elements (range error)", () =>
   expect(() => {drop([1,2,3], -1);}).toThrow());
 
-  it("11. should throw an exception for too many elements (range error)", () =>
-  expect(() => {drop([1,2,3], 4);}).toThrow());
 });
 
 describe("5.15 drop.js: Valid inputs (Positive testing)", () => {
@@ -41,4 +39,7 @@ describe("5.15 drop.js: Valid inputs (Positive testing)", () => {
 
   it("24. [1,2,3] sliced by undefined [2,3]", () =>
   expect(drop([1,2,3], undefined)).toEqual([2,3]));
+
+  it("25. [1,2,3] sliced by 5 []", () =>
+  expect(drop([1,2,3], 5)).toEqual([]));
 });
