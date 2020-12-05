@@ -1,6 +1,6 @@
 import isArrayLike from "../src/isArrayLike";
 
-describe("5.22 isArrayLike", () => {
+describe("5.22. isArrayLike", () => {
   it("0. should tell an array is array like", () => {
     expect(isArrayLike([1, 2, 3])).toBe(true);
   });

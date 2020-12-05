@@ -1,6 +1,6 @@
 import defaultToAny from "../src/defaultToAny";
 
-describe("5.12 defaultToAny.js: Valid inputs (Positive testing)", () => {
+describe("5.12. defaultToAny.js: Valid inputs (Positive testing)", () => {
   it("0. No default value should be returned with input 1", () =>
   expect(defaultToAny(1, 10, 20)).toBe(1));
 

@@ -6,7 +6,7 @@ const sum = jest.fn(function(a, b) {
   return a + b;
 });
 
-describe("5.35 reduce (Negative testing)", () => {
+describe("5.35. reduce (Negative testing)", () => {
   // TODO: These negative tests are failing.
   // The unit under test won't throw with invalid arguments.
 
@@ -24,7 +24,7 @@ describe("5.35 reduce (Negative testing)", () => {
   });
 });
 
-describe("5.36 reduce (Positive testing)", () => {
+describe("5.35. reduce (Positive testing)", () => {
   it("10. should sum array members and accumulator correctly", () => {
     sum.mockClear();
     expect(reduce([1, 2], sum, 0)).toBe(3);

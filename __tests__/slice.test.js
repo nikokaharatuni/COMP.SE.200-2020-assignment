@@ -1,6 +1,6 @@
 import slice from "../src/slice";
 
-describe("5.36 slice (Negative testing)", () => {
+describe("5.36. slice (Negative testing)", () => {
   // TODO: These negative tests are failing.
   // The unit under test won't throw with invalid arguments.
 
@@ -21,7 +21,7 @@ describe("5.36 slice (Negative testing)", () => {
   });
 });
 
-describe("5.36 slice (Positive testing)", () => {
+describe("5.36. slice (Positive testing)", () => {
   it("10. should correctly slice the array with a positive start number", () => {
     expect(slice([1, 2, 3, 4], 2)).toEqual([3, 4]);
   });

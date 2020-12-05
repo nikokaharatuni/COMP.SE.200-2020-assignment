@@ -1,6 +1,6 @@
 import isSymbol from "../src/isSymbol";
 
-describe("5.31 isSymbol", () => {
+describe("5.31. isSymbol", () => {
   it("0. should tell an iterator is a symbol", () => {
     expect(isSymbol(Symbol.iterator)).toBe(true);
   });

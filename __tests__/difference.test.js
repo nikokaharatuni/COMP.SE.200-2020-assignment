@@ -1,6 +1,6 @@
 import difference from "../src/difference";
 
-describe("5.13 difference.js: Invalid inputs (Negative testing)", () => {
+describe("5.13. difference.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {difference([1,2,3], undefined);}).toThrow());
 
@@ -29,7 +29,7 @@ describe("5.13 difference.js: Invalid inputs (Negative testing)", () => {
   expect(() => {difference(2, 2);}).toThrow());
 });
 
-describe("5.13 difference.js: Valid inputs (Positive testing)", () => {
+describe("5.13. difference.js: Valid inputs (Positive testing)", () => {
   it("20. The difference between the arrays [1,2] and [2,3] is [1]", () =>
   expect(difference([1,2], [2,3])).toEqual([1]));
 

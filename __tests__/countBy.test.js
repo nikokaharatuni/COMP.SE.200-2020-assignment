@@ -6,7 +6,7 @@ const users = Object.freeze([{ 'user': 'barney', 'active': true },
 const usersByName = Object.freeze({'barney': { 'user': 'barney', 'active': true },
  'betty': { 'user': 'betty', 'active': true }, 'fred': { 'user': 'fred', 'active': false }});
 
- describe("5.10 countBy.js: Invalid inputs (Negative testing)", () => {
+describe("5.10. countBy.js: Invalid inputs (Negative testing)", () => {
     it("0. should throw an exception for undefined value", () =>
     expect(() => {countBy(users, undefined);}).toThrow());
 
@@ -20,7 +20,7 @@ const usersByName = Object.freeze({'barney': { 'user': 'barney', 'active': true 
     expect(() => {countBy(usersByName, undefined);}).toThrow());
   });
 
- describe("5.10 countBy.js: Valid inputs (Positive testing)", () => {
+describe("5.10. countBy.js: Valid inputs (Positive testing)", () => {
   it("10. See test plan documentation table 5.10 countBy.js", () =>
   expect(countBy(users, value => value.active)).toEqual({'true': 2, 'false': 1 }));
 

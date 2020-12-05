@@ -1,6 +1,6 @@
 import isBoolean from "../src/isBoolean";
 
-describe("5.24 isBoolean", () => {
+describe("5.24. isBoolean", () => {
   it("0. should tell true is a boolean", () => {
     expect(isBoolean(true)).toBe(true);
   });

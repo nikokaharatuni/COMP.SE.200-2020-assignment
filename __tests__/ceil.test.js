@@ -1,6 +1,6 @@
 import ceil from "../src/ceil";
 
-describe("5.6 ceil.js: Invalid inputs (Negative testing)", () => {
+describe("5.6. ceil.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {ceil(undefined, 1);}).toThrow());
 
@@ -20,7 +20,7 @@ describe("5.6 ceil.js: Invalid inputs (Negative testing)", () => {
   expect(() => {ceil(3, 1.1);}).toThrow());
 });
 
-describe("5.6 ceil.js: Valid inputs (Positive testing)", () => {
+describe("5.6. ceil.js: Valid inputs (Positive testing)", () => {
   it("10. 4.006 should be ceiled up to 5 with undefined precision", () =>
   expect(ceil(4.006, undefined)).toBe(5));
 

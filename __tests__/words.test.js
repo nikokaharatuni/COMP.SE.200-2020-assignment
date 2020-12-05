@@ -1,6 +1,6 @@
 import words from "../src/words";
 
-describe("5.43 words", () => {
+describe("5.43. words", () => {
   it("1. should not detect special characters as word characters by default", () => {
     expect(words("fred, barney, & pebbles")).toEqual([
       "fred",

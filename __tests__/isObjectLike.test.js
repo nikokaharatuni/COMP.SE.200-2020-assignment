@@ -1,6 +1,6 @@
 import isObjectLike from "../src/isObjectLike";
 
-describe("5.30 isObjectLike", () => {
+describe("5.30. isObjectLike", () => {
   it("0. should tell an object is object-like", () => {
     expect(isObjectLike({})).toBe(true);
   });

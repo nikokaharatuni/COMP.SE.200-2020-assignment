@@ -1,6 +1,6 @@
 import divide from "../src/divide";
 
-describe("5.14 divide.js: Invalid inputs (Negative testing)", () => {
+describe("5.14. divide.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {divide(1, undefined);}).toThrow());
 
@@ -23,7 +23,7 @@ describe("5.14 divide.js: Invalid inputs (Negative testing)", () => {
   expect(() => {divide(5, 0);}).toThrow());
 });
 
-describe("5.14 divide.js: Valid inputs (Positive testing)", () => {
+describe("5.14. divide.js: Valid inputs (Positive testing)", () => {
   it("10. 0 divided by 1.1 is 0", () =>
   expect(divide(0, 1.1)).toBeCloseTo(0));
 

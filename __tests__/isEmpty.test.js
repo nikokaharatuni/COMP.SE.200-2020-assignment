@@ -1,6 +1,6 @@
 import isEmpty from "../src/isEmpty";
 
-describe("5.27 isEmpty", () => {
+describe("5.27. isEmpty", () => {
   it("0. should tell null is empty", () => {
     expect(isEmpty(null)).toBe(true);
   });

@@ -1,6 +1,6 @@
 import isDate from "../src/isDate";
 
-describe("5.26 isDate", () => {
+describe("5.26. isDate", () => {
   it("0. should tell a date is a date", () => {
     expect(isDate(new Date())).toBe(true);
   });

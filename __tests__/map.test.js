@@ -2,7 +2,7 @@ import { jest } from "@jest/globals";
 
 import map from "../src/map";
 
-describe("5.34 map (Negative testing)", () => {
+describe("5.34. map (Negative testing)", () => {
   // TODO: These negative tests are failing.
   // The unit under test won't throw with invalid arguments.
 
@@ -23,7 +23,7 @@ describe("5.34 map (Negative testing)", () => {
   });
 });
 
-describe("5.34 map (Positive testing)", () => {
+describe("5.34. map (Positive testing)", () => {
   it("10. should map empty array to empty array", () => {
     const iteratee = jest.fn(x => x);
     expect(map([], iteratee)).toEqual([]);

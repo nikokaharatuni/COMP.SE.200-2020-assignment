@@ -1,6 +1,6 @@
 import isArguments from "../src/isArguments";
 
-describe("5.21 isArguments", () => {
+describe("5.21. isArguments", () => {
   it("0. should not tell an array is arguments", () => {
     expect(isArguments([1, 2, 3])).toBe(false);
   });

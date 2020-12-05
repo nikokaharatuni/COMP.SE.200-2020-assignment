@@ -1,6 +1,6 @@
 import isObject from "../src/isObject";
 
-describe("5.29 isObject", () => {
+describe("5.29. isObject", () => {
   it("0. should tell an object is an object", () => {
     expect(isObject({})).toBe(true);
   });

@@ -1,6 +1,6 @@
 import every from "../src/every";
 
-describe("5.18 every.js: Invalid inputs (Negative testing)", () => {
+describe("5.18. every.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {every([true, 1, null], undefined);}).toThrow());
 
@@ -11,7 +11,7 @@ describe("5.18 every.js: Invalid inputs (Negative testing)", () => {
   expect(() => {every(undefined, undefined);}).toThrow());
 });
 
-describe("5.18 every.js: Valid inputs (Positive testing)", () => {
+describe("5.18. every.js: Valid inputs (Positive testing)", () => {
   it("10. All elements should not pass the predicate check", () =>
   expect(every([true, 1, null, 'yes'], Boolean)).toBe(false));
 

@@ -1,6 +1,6 @@
 import compact from "../src/compact";
 
-describe("5.9 compact.js: Valid inputs (Positive testing)", () => {
+describe("5.9. compact.js: Valid inputs (Positive testing)", () => {
   it("0. [1,2,3] no falsely values", () =>
   expect(compact([1,2,3])).toEqual([1,2,3]));
 

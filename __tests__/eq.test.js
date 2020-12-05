@@ -1,6 +1,6 @@
 import eq from "../src/eq";
 
-describe("5.17 eq.js: Valid inputs (Positive testing)", () => {
+describe("5.17. eq.js: Valid inputs (Positive testing)", () => {
   it("0. 1 and 1 are equal", () =>
   expect(eq(1, 1)).toBe(true));
 

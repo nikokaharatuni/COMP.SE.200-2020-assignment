@@ -1,6 +1,6 @@
 import clamp from "../src/clamp";
 
-describe("5.8 clamp.js: Invalid inputs (Negative testing)", () => {
+describe("5.8. clamp.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {clamp(5, -10, undefined);}).toThrow());
 
@@ -26,7 +26,7 @@ describe("5.8 clamp.js: Invalid inputs (Negative testing)", () => {
   expect(() => {clamp("5", "-10", "10");}).toThrow());
 });
 
-describe("5.8 clamp.js: Valid inputs (Positive testing)", () => {
+describe("5.8. clamp.js: Valid inputs (Positive testing)", () => {
   it("20. number 0 is between the bounds -5 - 5", () =>
   expect(clamp(0, -5, 5)).toBe(0));
 

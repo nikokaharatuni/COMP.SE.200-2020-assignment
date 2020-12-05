@@ -1,6 +1,6 @@
 import drop from "../src/drop";
 
-describe("5.15 drop.js: Invalid inputs (Negative testing)", () => {
+describe("5.15. drop.js: Invalid inputs (Negative testing)", () => {
   it("1. should throw an exception for undefined value", () =>
   expect(() => {drop(undefined, 1);}).toThrow());
 
@@ -24,7 +24,7 @@ describe("5.15 drop.js: Invalid inputs (Negative testing)", () => {
 
 });
 
-describe("5.15 drop.js: Valid inputs (Positive testing)", () => {
+describe("5.15. drop.js: Valid inputs (Positive testing)", () => {
   it("20. [1,2,3] sliced by zero elements is [1,2,3]", () =>
   expect(drop([1,2,3], 0)).toEqual([1,2,3]));
 

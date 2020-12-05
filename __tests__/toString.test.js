@@ -1,6 +1,6 @@
 import toString from "../src/toString";
 
-describe("5.41 toString", () => {
+describe("5.41. toString", () => {
   it("0. should turn positive number to string", () => {
     expect(toString(3.2)).toBe("3.2");
   });

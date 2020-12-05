@@ -1,6 +1,6 @@
 import isArrayLikeObject from "../src/isArrayLikeObject";
 
-describe("5.23 isArrayLikeObject", () => {
+describe("5.23. isArrayLikeObject", () => {
   it("0. should tell an array is array like object", () => {
     expect(isArrayLikeObject([1, 2, 3])).toBe(true);
   });

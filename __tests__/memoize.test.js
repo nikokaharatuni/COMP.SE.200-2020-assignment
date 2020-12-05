@@ -9,7 +9,7 @@ const memCreateObj = memoize(createObj);
 const firstResult = memCreateObj(1);
 const secondResult = memCreateObj(2);
 
-describe("5.37 memoized function (Positive testing)", () => {
+describe("5.37. memoized function (Positive testing)", () => {
   it("0. should correctly return the last memoized value and not call the original function", () => {
     expect(memCreateObj(2)).toBe(secondResult);
     expect(createObj).toHaveBeenCalledTimes(2);
@@ -29,7 +29,7 @@ describe("5.37 memoized function (Positive testing)", () => {
   });
 });
 
-describe("5.37 memoize function (Negative testing)", () => {
+describe("5.37. memoize function (Negative testing)", () => {
   it("10. should throw without arguments", () => {
     expect(() => memoize()).toThrow();
   });

@@ -1,6 +1,6 @@
 import toInteger from "../src/toInteger";
 
-describe("5.39 toInteger", () => {
+describe("5.39. toInteger", () => {
   it("0. should round decimals correctly to integer", () => {
     expect(toInteger(3.2)).toBe(3);
   });

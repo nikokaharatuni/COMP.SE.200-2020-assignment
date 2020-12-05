@@ -1,6 +1,6 @@
 import defaultTo from "../src/defaultTo";
 
-describe("5.11 defaultTo.js: Valid inputs (Positive testing)", () => {
+describe("5.11. defaultTo.js: Valid inputs (Positive testing)", () => {
   it("0. The default value 10 should be returned if the input is undefined", () =>
   expect(defaultTo(undefined, 10)).toBe(10));
 

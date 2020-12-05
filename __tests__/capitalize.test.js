@@ -1,6 +1,6 @@
 import capitalize from "../src/capitalize";
 
-describe("5.4 capitalize.js: Invalid inputs (Negative testing)", () => {
+describe("5.4. capitalize.js: Invalid inputs (Negative testing)", () => {
     it("0. should throw an exception for undefined value", () =>
     expect(() => {capitalize(undefined);}).toThrow());
   
@@ -8,7 +8,7 @@ describe("5.4 capitalize.js: Invalid inputs (Negative testing)", () => {
     expect(() => {capitalize(123);}).toThrow());
 });
 
-describe("5.4 capitalize.js: Valid inputs (Positive testing)", () => {
+describe("5.4. capitalize.js: Valid inputs (Positive testing)", () => {
     it("10. With an empty string should be returned empty string", () =>
     expect(capitalize("")).toBe(""));
 

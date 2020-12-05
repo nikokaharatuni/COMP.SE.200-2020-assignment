@@ -1,6 +1,6 @@
 import add from "../src/add";
 
-describe("5.1 add.js: Invalid inputs (Negative testing)", () => {
+describe("5.1. add.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {add(1, undefined);}).toThrow());
 
@@ -20,7 +20,7 @@ describe("5.1 add.js: Invalid inputs (Negative testing)", () => {
   expect(() => {add("abc", "abc");}).toThrow());
 });
 
-describe("5.1 add.js: Valid inputs (Positive testing)", () => {
+describe("5.1. add.js: Valid inputs (Positive testing)", () => {
   it("10. 0 + 1.1 should be 1.1", () =>
   expect(add(0, 1.1)).toBe(1.1));
 

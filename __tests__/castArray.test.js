@@ -1,6 +1,6 @@
 import castArray from "../src/castArray";
 
-describe("5.5 castArray.js: Valid inputs (Positive testing)", () => {
+describe("5.5. castArray.js: Valid inputs (Positive testing)", () => {
     it("1. With 1 should be returned [1]", () =>
     expect(castArray(1)).toStrictEqual([1]));
 

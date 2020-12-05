@@ -1,6 +1,6 @@
 import toNumber from "../src/toNumber";
 
-describe("5.40 toNumber", () => {
+describe("5.40. toNumber", () => {
   it("0. should pass regular number literals as they are", () => {
     expect(toNumber(3.2)).toBe(3.2);
   });

@@ -1,6 +1,6 @@
 import endsWith from "../src/endsWith";
 
-describe("5.16 endsWith.js: Invalid inputs (Negative testing)", () => {
+describe("5.16. endsWith.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {endsWith("abc", undefined, 3);}).toThrow());
 
@@ -14,7 +14,7 @@ describe("5.16 endsWith.js: Invalid inputs (Negative testing)", () => {
   expect(() => {endsWith("abc", "c", -1);}).toThrow());
 });
 
-describe("5.16 endsWith.js: Valid inputs (Positive testing)", () => {
+describe("5.16. endsWith.js: Valid inputs (Positive testing)", () => {
   it("10. abc ends with c when the number is undefined", () =>
   expect(endsWith("abc", "c", undefined)).toBe(true));
 

@@ -1,6 +1,6 @@
 import keys from "../src/keys";
 
-describe("5.33 keys", () => {
+describe("5.33. keys", () => {
   function Foo() {
     this.a = 1;
     this.b = 2;

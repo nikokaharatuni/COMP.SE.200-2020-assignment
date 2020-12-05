@@ -2,7 +2,7 @@ import { jest } from "@jest/globals";
 
 import toFinite from "../src/toFinite";
 
-describe("5.38 toFinite", () => {
+describe("5.38. toFinite", () => {
   it("0. should work with regular number literal", () => {
     expect(toFinite(3.2)).toBe(3.2);
   });

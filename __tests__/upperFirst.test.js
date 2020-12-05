@@ -1,6 +1,6 @@
 import upperFirst from "../src/upperFirst";
 
-describe("5.42 upperFirst", () => {
+describe("5.42. upperFirst", () => {
   it("0. should capitalize the first character when it's alphabetical", () => {
     expect(upperFirst("fred")).toBe("Fred");
   });

@@ -1,6 +1,6 @@
 import isLength from "../src/isLength";
 
-describe("5.28 isLength", () => {
+describe("5.28. isLength", () => {
   it("0. should tell number literal 0 is a valid array-like length", () => {
     expect(isLength(0)).toBe(true);
   });

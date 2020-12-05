@@ -1,6 +1,6 @@
 import chunk from "../src/chunk";
 
-describe("5.7 chunk.js: Invalid inputs (Negative testing)", () => {
+describe("5.7. chunk.js: Invalid inputs (Negative testing)", () => {
   it("0. should throw an exception for undefined value", () =>
   expect(() => {chunk(undefined, 1);}).toThrow());
 
@@ -26,7 +26,7 @@ describe("5.7 chunk.js: Invalid inputs (Negative testing)", () => {
   expect(() => {chunk(['a', 'b', 'c', 'd'], 5);}).toThrow());
 });
 
-describe("5.7 chunk.js: Valid inputs (Positive testing)", () => {
+describe("5.7. chunk.js: Valid inputs (Positive testing)", () => {
   it("20. See test plan documentation table 5.7 chunk.js", () =>
   expect(chunk(['a', 'b', 'c', 'd'], 1)).toBe([['a'], ['b'], ['c'], ['d']]));
 
